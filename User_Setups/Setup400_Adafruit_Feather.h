@@ -5,6 +5,10 @@ Or TS-ESP32-S3 Development Board With 1.14 Inch TFT Display
 */
 #define USER_SETUP_ID 400
 
+// https://github.com/Bodmer/TFT_eSPI/issues/3464
+// https://github.com/Bodmer/TFT_eSPI/issues/3329
+#define USE_HSPI_PORT
+
 #define ST7789_DRIVER     // Configure all registers
 
 #define TFT_WIDTH  135
